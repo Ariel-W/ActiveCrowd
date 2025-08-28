@@ -1,5 +1,5 @@
 /* ===========================
-   ActiveCrowd base styles (RTL)
+   ActiveCrowd base styles (RTL + LTR)
    =========================== */
 :root{
   --color-bg:#ffffff;
@@ -71,6 +71,7 @@ h3{font-size:22px;margin:0 0 8px}
 .btn-primary{background:var(--color-primary);color:#fff}
 .btn-accent{background:var(--color-accent);color:#111}
 .btn-ghost{background:transparent;border-color:var(--color-border);color:var(--color-text)}
+.btn-ghost.small{font-size:14px;padding:6px 12px;margin-inline-start:12px}
 .link{font-weight:600}
 
 .card{
@@ -110,7 +111,7 @@ form.card input, form.card textarea{
 .thankyou{color:green;font-weight:600;margin-top:10px}
 
 .site-footer{
-  border-top:1px solid var(--color-border);padding:20px 0;background:#fff
+  border-top:1px solid var(--color-border);padding:20px 0;background:#fff;margin-top:var(--space-xl)
 }
 .footer-grid{
   display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap
